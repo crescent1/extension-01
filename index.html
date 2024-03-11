@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Covid-19 Stats- UK</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container mt-3">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="quotes.html">Link</a>
+        </li>
+      </ul>
+      
+      <h2 class="text-center">Covid Latest Report-UK</h2>
+      <div class="table-responsive"></div>
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>Date</th>
+                <th>Country</th>
+                <th>New Confirmed</th>
+                <th>All Confirmed</th>
+                <th>New Deaths</th>
+                <th>All Deaths</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td id="date"></td>
+                <td id="areaName"></td>
+                <td id="latestBy"></td>
+                <td id="allConfirmed"></td>
+                <td id="deathNew"></td>
+                <td id="allDeath"></td>
+            </tr>
+            </tbody>
+        </table>
+      </div>  
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
