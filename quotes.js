@@ -1,18 +1,25 @@
-// async function fetchData() {
+// async function fetchDataQuotes() {
+//     let text = "";
 //     const url = "https://zenquotes.io/api/quotes";
-//     const res = await fetch (url, {
-//         mode: "no-cors",
-//         headers: {
-//             "Content-Type": "application/json",
-//         },
+//     const res = await fetch(url, {
+//         mode: "cors",
+//         method: 'GET',
 //     });
 
 //     const quotes = await res.json();
 //     console.log(quotes);
 
+//     quotes.forEach(myFunction);
+//     document.getElementById("quote").innerHTML = text;
+
+
+//     function myFunction(element, index) {
+//         text += element.q; 
+//     }
+
     
 // }
-// fetchData();
+// fetchDataQuotes();
 
 let text = "";
 const data = [

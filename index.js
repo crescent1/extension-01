@@ -1,6 +1,6 @@
 async function fetchData() {
     const url = "https://api.coronavirus.data.gov.uk/v1/data";
-    const res = await fetch (url, {
+    const res = await fetch(url, {
         mode: "cors"
     });
 
